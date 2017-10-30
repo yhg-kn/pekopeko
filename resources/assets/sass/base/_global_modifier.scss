@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+// common
+// inline-block
+.gm-dib{
+	display: inline-block;
+}
+// table-cell
+.gm-dtc{
+	display: table-cell;
+	vertical-align: middle;
+}
+// overflow: hidden
+.gm-ofh{
+	overflow:hidden;
+}
+// float: left
+.gm-fl{
+	float: left;
+	margin-right: 10px;
+}
+// float: right
+.gm-fr{
+	float: right;
+	margin-left: 10px;
+}
+// text-align: center
+.gm-tac{
+	text-align: center;
+}
+// text-align: left
+.gm-tal{
+	text-align: left;
+}
+// text-align: right
+.gm-tar{
+	text-align: right;
+}
+
+//border:none
+.gm-brn{
+	border:none !important;
+}
+
+//SP display:none
+.gm-sp_none{
+	display:block !important;
+	@include max-screen($break_point-mobile) {
+		display:none !important;
+	}
+}
+
+//PC display:none
+.gm-pc_none{
+	display:none !important;
+	@include max-screen($break_point-mobile) {
+		display:block !important;
+	}
+}
+
+// 余白調整用のクラス
+@for $i from 0 through 20 {
+	.gm-mt#{$i * 5} { margin-top: 5px * $i !important; }
+	.gm-mb#{$i * 5} { margin-bottom: 5px * $i !important; }
+	.gm-pt#{$i * 5} { padding-top: 5px * $i !important; }
+	.gm-pb#{$i * 5} { padding-bottom: 5px * $i !important; }
+}
+
+// clearfix
+.gm-clearfix {
+	&:after {
+		content: ".";
+		display: block;
+		clear: both;
+		height: 0;
+		visibility: hidden;
+	}
+}
+

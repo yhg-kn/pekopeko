@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.input-group-addon.no-decolation {
+  border: none;
+  background-color: transparent;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.repeater-fieldset {
+  display: table;
+  margin: 0 0 10px;
+  width: 100%;
+}
+
+.fieldset-input {
+  display: table-cell;
+}
+
+.fieldset-tools {
+  display: table-cell;
+  padding: 26px 0 0 20px;
+  width: 30px;
+  vertical-align: middle;
+}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#map {
+  width: 100%;
+  margin-top:61px;
+  height: calc(100vh - 61px);
+}
+
+.map_info{
+	text-align:center;
+}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+// Google Fonts
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,800);
+@import url(//fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+//Media Query
+$break_point-tablet: 979px;
+$break_point-mobile: 767px;
+
+// Base Font
+$base_font: 'Open Sans', 'Noto Sans JP', Meiryo, sans-serif;
+$base_font_ie: 'Open Sans', 'Noto Sans JP', Meiryo, sans-serif;
+
+// Base Width
+$base_width: 940px;
+
+// Main Color
+$main_color: #fff;
+
+// Sub Color
+$sub_color: #eee;
+
+// Accent Color
+$accent_color: #e73562;
+
+// Base Text Color
+$font_color: #333;
+
+// Base Link Color
+$link_color: #333;
+$link_color_visited: #333;
+$link_color_hover: #333;
+$link_color_active: #333;
+
+// Border Radius
+$br_value: 3px;

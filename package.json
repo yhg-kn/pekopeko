@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "bootstrap-sass": "^3.3.7",
+    "cross-env": "^5.0.1",
+    "jquery": "^3.1.1",
+    "laravel-mix": "^1.0",
+    "lodash": "^4.17.4",
+    "vue": "^2.1.10",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.8",
+    "es6-promise": "~3.2.1",
+    "gulp": "^3.8.8",
+    "gulp-watch": "~4.3.5",
+    "webpack": "^3.1.0",
+    "webpack-stream": "^3.2.0",
+    "imagesloaded": "^4.1.3",
+    "jquery-match-height": "^0.7.2",
+    "velocity-animate": "^1.5.0"
+  },
+  "dependencies": {
+    "fs": "0.0.2",
+    "gulp-combine-media-queries": "^0.2.0",
+    "gulp-csscomb": "^3.0.7",
+    "gulp-ejs": "^2.0.0",
+    "gulp-if": "~2.0.0",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-ruby-sass": "^1.0.0-alpha.3",
+    "gulp-uglify": "~1.4.2",
+    "gulp.spritesmith": "^4.0.0"
+  },
+  "name": "new",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

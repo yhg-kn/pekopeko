@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+//Default Layout
+body {
+    background: $main_color;
+    color: $font_color;
+    font-family: $base_font;
+    font-size: 1.0rem;
+    min-width: 320px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+html {
+    width: 100%;
+    font-size: 62.5%;
+}
+input,
+textarea {
+    font-family: $base_font;
+}
+
+img {
+    vertical-align: top;
+}
+
+a {
+    outline: none;
+    &:link {
+        text-decoration: none;
+        color: $link_color;
+    }
+    &:visited {
+        color: $link_color_visited;
+    }
+    &:hover {
+        text-decoration: none;
+        color: $link_color_hover;
+    }
+    &:active {
+        text-decoration: none;
+        color: $link_color_active;
+    }
+    &:focus{
+        outline:none;
+    }
+}
